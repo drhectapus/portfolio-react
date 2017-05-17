@@ -1,1 +1,155 @@
+$title-font: 'Lato', sans-serif;
+$body-font: 'Open Sans', sans-serif;
+$primary-bg: #fff;
+$secondary-bg: #eee;
 
+html {
+  font-size: 100%;
+}
+body {
+  font-family: $body-font;
+  position: relative;
+  @media (min-width: 768px) {
+    font-size: 110%;
+  }
+  @media (min-width: 1024px) {
+    font-size: 120%;
+  }
+  @media (min-width: 1600px) {
+    font-size: 140%;
+  }
+}
+
+.navbar {
+  margin: 0;
+}
+
+#home {
+
+  background-color: $primary-bg;
+  display: flex;
+  flex-direction: column-reverse;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+  .home-text {
+    border: 2px solid red;
+    flex: 1 1 70vh;
+    position: relative;
+
+    .text-heading {
+      position: absolute;
+      left: 2%;
+      bottom: 2%;
+      @media (min-width: 768px) {
+        top: 45%;
+      }
+      width: 85%;
+      border: 2px solid green;
+      h1 {
+        font-size: 3em;
+        font-weight: 900;
+        font-family: $title-font;
+      }
+    }
+  }
+  #image-container {
+
+    img {
+      @media (min-width: 768px) {
+        max-height: 100vh;
+      }
+      border: 2px solid blue;
+      flex: 0 1 auto;
+    }
+  }
+
+}
+
+
+#about {
+  background-color: $secondary-bg;
+  padding: 2.5% 7.5%;
+  @media (min-width: 600px) {
+    padding: 5% 12.5%;
+  }
+  @media (min-width: 768px) {
+    padding: 5% 17.5%;
+  }
+  @media (min-width: 1024px) {
+    padding: 5% 20%;
+  }
+  @media (min-width: 1600px) {
+    padding: 5% 30%;
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    font-size: 1em;
+    text-align: justify;
+  }
+  .about-panel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+  }
+  .about-panel-inverse {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 1.5em;
+  }
+  .about-panel-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+  img {
+    height: 5em;
+    width: 5em;
+    border: 4px solid #505050;
+    margin: 0.5em 2em;
+  }
+}
+
+#work {
+  background-color: $primary-bg;
+  padding: 2.5% 12.5%;
+  @media (min-width: 768px) {
+    padding: 5% 17.5%;
+  }
+  @media (min-width: 1024px) {
+    padding: 5% 20%;
+  }
+  @media (min-width: 1600px) {
+    padding: 5% 30%;
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    font-size: 0.9em;
+  }
+}
+
+#contact {
+  background-color: $secondary-bg;
+  padding: 2.5% 12.5%;
+  @media (min-width: 768px) {
+    padding: 5% 17.5%;
+  }
+  @media (min-width: 1024px) {
+    padding: 5% 20%;
+  }
+  @media (min-width: 1600px) {
+    padding: 5% 30%;
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    font-size: 0.9em;
+  }
+}
