@@ -13,10 +13,10 @@ body {
     font-size: 110%;
   }
   @media (min-width: 1024px) {
-    font-size: 120%;
+    font-size: 115%;
   }
   @media (min-width: 1600px) {
-    font-size: 140%;
+    font-size: 130%;
   }
 }
 
@@ -33,7 +33,6 @@ body {
     flex-direction: row;
   }
   .home-text {
-    border: 2px solid red;
     flex: 1 1 70vh;
     position: relative;
 
@@ -45,7 +44,6 @@ body {
         top: 45%;
       }
       width: 85%;
-      border: 2px solid green;
       h1 {
         font-size: 3em;
         font-weight: 900;
@@ -59,7 +57,6 @@ body {
       @media (min-width: 768px) {
         max-height: 100vh;
       }
-      border: 2px solid blue;
       flex: 0 1 auto;
     }
   }
@@ -116,21 +113,51 @@ body {
 
 #work {
   background-color: $primary-bg;
-  padding: 2.5% 12.5%;
+  padding: 2.5% 7.5%;
   @media (min-width: 768px) {
-    padding: 5% 17.5%;
-  }
-  @media (min-width: 1024px) {
-    padding: 5% 20%;
-  }
-  @media (min-width: 1600px) {
-    padding: 5% 30%;
+    padding: 5% 7.5%;
   }
   h1 {
     text-align: center;
   }
   p {
     font-size: 0.9em;
+  }
+}
+
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+  .thumbnail {
+    margin: 1% 0%;
+    @media (min-width: 768px) {
+      flex: 0 1 45%;
+    }
+    @media (min-width: 1024px) {
+      flex: 0 1 27%;
+    }
+    @media (min-width: 1600px) {
+      flex: 0 1 20%;
+    }
+    &:hover {
+      border: 2px solid #428bca;
+    }
+    .caption {
+      h3 {
+        text-align: center;
+      }
+      p {
+        text-align: justify;
+      }
+      .github-icon {
+        text-align: center;
+      }
+    }
   }
 }
 
@@ -151,5 +178,31 @@ body {
   }
   p {
     font-size: 0.9em;
+  }
+  form {
+    label {
+      font-size: 0.7em;
+    }
+    button {
+      margin: 0.5em auto 1em;
+    }
+    .help-block {
+      font-size: 0.6em;
+    }
+  }
+}
+
+footer {
+  background-color: #222;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  i {
+    font-size: 2em;
+    margin: 0 5px;
+    color: white;
+    &:hover {
+      color: #e6e6e6;
+    }
   }
 }

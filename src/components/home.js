@@ -13,7 +13,7 @@ export default class Home extends Component {
         <div className='home-text'>
           <div className='text-heading'>
             <h1>Hi, my name is Joseph Liu.</h1>
-            <h3>I make health supplement formulas and learn code in my free time.</h3>
+            <h3>I create health supplement formulas and learn code in my free time.</h3>
           </div>
         </div>
       </div>

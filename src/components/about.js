@@ -12,11 +12,11 @@ class About extends Component {
         </div>
         <div className='about-panel-inverse'>
           <img src="http://i.imgur.com/Ooqi5LE.jpg" alt="Beach Laptop" className="img-responsive img-circle" />
-          <p>The journey brought me initially to Vietnam, out of all places, where I currently work as Head of R&D at <a href='https://www.vitamonk/'>VitaMonk</a>. My job is remote, so I am what most consider a 'digital nomad' - someone who makes anywhere and everywhere his office.</p>
+          <p>The journey brought me initially to Vietnam, out of all places, where I currently work as Head of R&D at <a href='https://www.vitamonk.com/' target='_blank'>VitaMonk</a>. My job is remote, so I am what most consider a 'digital nomad' - someone who makes anywhere and everywhere his office.</p>
         </div>
         <div className='about-panel'>
           <img src="http://i.imgur.com/d2yFFhQ.jpg" alt="Cushion" className="img-responsive img-circle" />
-          <p>In between, I started an Amazon business selling butt cushions, which was my first foray in entrepreneurship. It exposed me to all the different aspects of business, such as product development, manufacturing, logistics, copywriting and marketing. The learning experience was fantastic.</p>
+          <p>In between, I started an Amazon business selling bum cushions, which was my first foray in entrepreneurship. It exposed me to all the different aspects of business, such as product development, manufacturing, logistics, copywriting and marketing. The learning experience was fantastic.</p>
         </div>
         <div className='about-panel-inverse'>
           <img src="http://i68.tinypic.com/jijpl3.jpg" alt="Ideas" className="img-responsive img-circle" />
