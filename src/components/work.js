@@ -30,6 +30,14 @@ class Work extends Component {
               <div className='github-icon'><a href='https://github.com/drhectapus/twitch-react' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
             </div>
           </div>
+          <div className='thumbnail'>
+            <a href='https://calc-react-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/QB790xW.png' alt='twitch app' /></a>
+            <div className='caption'>
+              <h3><strong>Calculator</strong></h3>
+              <p>The calculator project from FreeCodeCamp redesigned in React using lodash and mathjs libraries.</p>
+              <div className='github-icon'><a href='https://github.com/drhectapus/Calculator-React' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
         </div>
       </div>
     );
