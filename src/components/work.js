@@ -38,6 +38,14 @@ class Work extends Component {
               <div className='github-icon'><a href='https://github.com/drhectapus/Calculator-React' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
             </div>
           </div>
+          <div className='thumbnail'>
+            <a href='https://react-pomodoro-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/NkVE8bq.png' alt='twitch app' /></a>
+            <div className='caption'>
+              <h3><strong>Pomodoro Clock</strong></h3>
+              <p>The pomodoro clock project from FreeCodeCamp redesigned in React.</p>
+              <div className='github-icon'><a href='https://github.com/drhectapus/react-pomodoro' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
         </div>
       </div>
     );
