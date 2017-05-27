@@ -42,8 +42,16 @@ class Work extends Component {
             <a href='https://react-pomodoro-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/NkVE8bq.png' alt='twitch app' /></a>
             <div className='caption'>
               <h3><strong>Pomodoro Clock</strong></h3>
-              <p>The pomodoro clock project from FreeCodeCamp redesigned in React.</p>
+              <p>The pomodoro clock project from FreeCodeCamp redesigned in React amd SCSS.</p>
               <div className='github-icon'><a href='https://github.com/drhectapus/react-pomodoro' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
+          <div className='thumbnail'>
+            <a href='https://react-simon-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/vGT6ivr.png' alt='twitch app' /></a>
+            <div className='caption'>
+              <h3><strong>Simon Game</strong></h3>
+              <p>The Simon game project from FreeCodeCamp redesigned in React and SCSS.</p>
+              <div className='github-icon'><a href='https://github.com/drhectapus/react-simon-game' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
             </div>
           </div>
         </div>
