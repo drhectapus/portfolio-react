@@ -57,8 +57,8 @@ class Work extends Component {
           <div className='thumbnail'>
             <a href='https://react-tictactoe-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/p3wiyhH.png' alt='twitch app' /></a>
             <div className='caption'>
-              <h3><strong>Simon Game</strong></h3>
-              <p>The Simon game project from FreeCodeCamp redesigned in React and SCSS.</p>
+              <h3><strong>Super Simple Tic Tac Toe</strong></h3>
+              <p>A very basic version of Tic Tac Toe made in React with SCSS.</p>
               <div className='github-icon'><a href='https://github.com/drhectapus/react-tictactoe' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
             </div>
           </div>
