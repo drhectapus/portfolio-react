@@ -62,6 +62,14 @@ class Work extends Component {
               <div className='github-icon'><a href='https://github.com/drhectapus/react-tictactoe' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
             </div>
           </div>
+          <div className='thumbnail'>
+            <a href='https://markdown-previewer-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/4Dfk8VJ.png' alt='twitch app' /></a>
+            <div className='caption'>
+              <h3><strong>Markdown Previewer</strong></h3>
+              <p>Markdown Previewer challenge from FCC made in React and SCSS using marked.js library.</p>
+              <div className='github-icon'><a href='https://github.com/drhectapus/markdown-previewer' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
         </div>
       </div>
     );
