@@ -31,7 +31,7 @@ class Work extends Component {
             </div>
           </div>
           <div className='thumbnail'>
-            <a href='https://calc-react-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/QB790xW.png' alt='twitch app' /></a>
+            <a href='https://calc-react-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/QB790xW.png' alt='calculator app' /></a>
             <div className='caption'>
               <h3><strong>Calculator</strong></h3>
               <p>The calculator project from FreeCodeCamp redesigned in React using lodash and mathjs libraries.</p>
@@ -39,7 +39,7 @@ class Work extends Component {
             </div>
           </div>
           <div className='thumbnail'>
-            <a href='https://react-pomodoro-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/NkVE8bq.png' alt='twitch app' /></a>
+            <a href='https://react-pomodoro-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/NkVE8bq.png' alt='pomodoro clock app' /></a>
             <div className='caption'>
               <h3><strong>Pomodoro Clock</strong></h3>
               <p>The pomodoro clock project from FreeCodeCamp redesigned in React amd SCSS.</p>
@@ -47,7 +47,7 @@ class Work extends Component {
             </div>
           </div>
           <div className='thumbnail'>
-            <a href='https://react-simon-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/vGT6ivr.png' alt='twitch app' /></a>
+            <a href='https://react-simon-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/vGT6ivr.png' alt='simon game app' /></a>
             <div className='caption'>
               <h3><strong>Simon Game</strong></h3>
               <p>The Simon game project from FreeCodeCamp redesigned in React and SCSS.</p>
@@ -55,7 +55,7 @@ class Work extends Component {
             </div>
           </div>
           <div className='thumbnail'>
-            <a href='https://react-tictactoe-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/p3wiyhH.png' alt='twitch app' /></a>
+            <a href='https://react-tictactoe-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/p3wiyhH.png' alt='tic tac toe app' /></a>
             <div className='caption'>
               <h3><strong>Super Simple Tic Tac Toe</strong></h3>
               <p>A very basic version of Tic Tac Toe made in React with SCSS.</p>
@@ -63,11 +63,19 @@ class Work extends Component {
             </div>
           </div>
           <div className='thumbnail'>
-            <a href='https://markdown-previewer-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/4Dfk8VJ.png' alt='twitch app' /></a>
+            <a href='https://markdown-previewer-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/4Dfk8VJ.png' alt='markdown app' /></a>
             <div className='caption'>
               <h3><strong>Markdown Previewer</strong></h3>
               <p>Markdown Previewer challenge from FCC made in React and SCSS using marked.js library.</p>
               <div className='github-icon'><a href='https://github.com/drhectapus/markdown-previewer' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
+          <div className='thumbnail'>
+            <a href='https://d3-barchart-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/9dKYKex.png' alt='D3 Barchart app' /></a>
+            <div className='caption'>
+              <h3><strong>D3 Barchart</strong></h3>
+              <p>Barchart project from FCC made with D3 and React.</p>
+              <div className='github-icon'><a href='https://github.com/drhectapus/d3-barchart' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
             </div>
           </div>
         </div>
