@@ -78,6 +78,14 @@ class Work extends Component {
               <div className='github-icon'><a href='https://github.com/drhectapus/d3-barchart' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
             </div>
           </div>
+          <div className='thumbnail'>
+            <a href='https://node-sample-173223.appspot.com/' target='_blank'><img src='http://i.imgur.com/lVi9Iat.png' alt='D3 Scatterplot app' /></a>
+            <div className='caption'>
+              <h3><strong>D3 Scatterplot</strong></h3>
+              <p>Scatterplot project from FCC made with D3 and React.</p>
+              <div className='github-icon'><a href='https://github.com/drhectapus/d3-scatterplot' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
         </div>
       </div>
     );
