@@ -90,8 +90,16 @@ class Work extends Component {
             <a href='https://d3-heatmap-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/pRJJGMx.png' alt='D3 Scatterplot app' /></a>
             <div className='caption'>
               <h3><strong>D3 Heatmap</strong></h3>
-              <p>Heatap project from FCC made with D3 and React.</p>
+              <p>Heatmap project from FCC made with D3 and React.</p>
               <div className='github-icon'><a href='https://github.com/drhectapus/d3-heatmap' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
+          <div className='thumbnail'>
+            <a href='https://d3-force-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/kHjPOan.png' alt='D3 Scatterplot app' /></a>
+            <div className='caption'>
+              <h3><strong>D3 Force Layout</strong></h3>
+              <p>Force layout project from FCC made with D3 and React.</p>
+              <div className='github-icon'><a href='https://github.com/drhectapus/d3-force' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
             </div>
           </div>
         </div>
