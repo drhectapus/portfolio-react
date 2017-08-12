@@ -102,6 +102,14 @@ class Work extends Component {
               <div className='github-icon'><a href='https://github.com/drhectapus/d3-force' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
             </div>
           </div>
+          <div className='thumbnail'>
+            <a href='https://d3-map-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/g8GsCUV.png' alt='D3 Meteor Map' /></a>
+            <div className='caption'>
+              <h3><strong>D3 Meteor Map</strong></h3>
+              <p>Meteor map project from FCC made with D3 and React.</p>
+              <div className='github-icon'><a href='https://github.com/drhectapus/d3-map' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
         </div>
       </div>
     );
