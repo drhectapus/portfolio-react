@@ -110,6 +110,14 @@ class Work extends Component {
               <div className='github-icon'><a href='https://github.com/drhectapus/d3-map' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
             </div>
           </div>
+          <div className='thumbnail'>
+            <a href='https://url-shortener-drhectapus.herokuapp.com/' target='_blank'><img src='https://i.imgur.com/ToPkXAF.png' alt='URL Shortener Microservice' /></a>
+            <div className='caption'>
+              <h3><strong>URL Shortener Microservice</strong></h3>
+              <p>URL Shortener Microservice project from FCC made with React, Express/Nodejs, Materialize-CSS</p>
+              <div className='github-icon'><a href='https://github.com/drhectapus/url-shortener' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
         </div>
       </div>
     );

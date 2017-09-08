@@ -24,7 +24,7 @@ app.set('view engine', 'pug');
 app.use(express.static(path.resolve(path.join(__dirname, '/dist'))));
 
 app.get('/', (req, res) => {
-  res.render('index');
+  res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
 });
 
 const PORT = process.env.PORT || 8080;
