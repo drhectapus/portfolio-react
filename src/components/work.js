@@ -1,123 +1,33 @@
 import React, { Component } from 'react';
+import WorkItem from './work-item';
+import WorkItemsArray from './work-items-array';
 
 class Work extends Component {
+  componentDidMount() {
+      console.log(new Date(), ' Work is mouned 🙃');
+    }
+
+    componentWillUnmount() {
+      console.log(new Date(), ' Work will be killed 😭');
+    }
+
   render() {
     return (
       <div id='work'>
         <h1>Work</h1>
         <div id='portfolio'>
-          <div className='thumbnail'>
-            <a href='https://weather-react-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/LgQnQCr.png' alt='weather react app' /></a>
-            <div className='caption'>
-              <h3><strong>Weather App</strong></h3>
-              <p>Weather app project from FreeCodeCamp made with React using OpenWeatherMap and Google Maps APIs.</p>
-              <div className='github-icon'><a href='https://github.com/drhectapus/Weather-App-React-' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div className='thumbnail'>
-            <a href='https://wiki-react-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/fk5RZOV.png' alt='wikipedia app' /></a>
-            <div className='caption'>
-              <h3><strong>Wikipedia Widget</strong></h3>
-              <p>Wikipedia app project from FreeCodeCamp made with React using Wikipedia API.</p>
-              <div className='github-icon'><a href='https://github.com/drhectapus/Wiki-React-App' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div className='thumbnail'>
-            <a href='https://twitch-react-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/a8MKniL.png' alt='twitch app' /></a>
-            <div className='caption'>
-              <h3><strong>Twitch Streaming Widget</strong></h3>
-              <p>Twitch streaming app project from FreeCodeCamp made with React using the Twitch API and implementing flexbox for responsive layout.</p>
-              <div className='github-icon'><a href='https://github.com/drhectapus/twitch-react' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div className='thumbnail'>
-            <a href='https://calc-react-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/QB790xW.png' alt='calculator app' /></a>
-            <div className='caption'>
-              <h3><strong>Calculator</strong></h3>
-              <p>The calculator project from FreeCodeCamp redesigned in React using lodash and mathjs libraries.</p>
-              <div className='github-icon'><a href='https://github.com/drhectapus/Calculator-React' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div className='thumbnail'>
-            <a href='https://react-pomodoro-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/NkVE8bq.png' alt='pomodoro clock app' /></a>
-            <div className='caption'>
-              <h3><strong>Pomodoro Clock</strong></h3>
-              <p>The pomodoro clock project from FreeCodeCamp redesigned in React amd SCSS.</p>
-              <div className='github-icon'><a href='https://github.com/drhectapus/react-pomodoro' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div className='thumbnail'>
-            <a href='https://react-simon-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/vGT6ivr.png' alt='simon game app' /></a>
-            <div className='caption'>
-              <h3><strong>Simon Game</strong></h3>
-              <p>The Simon game project from FreeCodeCamp redesigned in React and SCSS.</p>
-              <div className='github-icon'><a href='https://github.com/drhectapus/react-simon-game' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div className='thumbnail'>
-            <a href='https://react-tictactoe-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/p3wiyhH.png' alt='tic tac toe app' /></a>
-            <div className='caption'>
-              <h3><strong>Super Simple Tic Tac Toe</strong></h3>
-              <p>A very basic version of Tic Tac Toe made in React with SCSS.</p>
-              <div className='github-icon'><a href='https://github.com/drhectapus/react-tictactoe' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div className='thumbnail'>
-            <a href='https://markdown-previewer-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/4Dfk8VJ.png' alt='markdown app' /></a>
-            <div className='caption'>
-              <h3><strong>Markdown Previewer</strong></h3>
-              <p>Markdown Previewer challenge from FCC made in React and SCSS using marked.js library.</p>
-              <div className='github-icon'><a href='https://github.com/drhectapus/markdown-previewer' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div className='thumbnail'>
-            <a href='https://d3-barchart-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/9dKYKex.png' alt='D3 Barchart app' /></a>
-            <div className='caption'>
-              <h3><strong>D3 Barchart</strong></h3>
-              <p>Barchart project from FCC made with D3 and React.</p>
-              <div className='github-icon'><a href='https://github.com/drhectapus/d3-barchart' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div className='thumbnail'>
-            <a href='https://d3-scatterplot-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/lVi9Iat.png' alt='D3 Scatterplot app' /></a>
-            <div className='caption'>
-              <h3><strong>D3 Scatterplot</strong></h3>
-              <p>Scatterplot project from FCC made with D3 and React.</p>
-              <div className='github-icon'><a href='https://github.com/drhectapus/d3-scatterplot' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div className='thumbnail'>
-            <a href='https://d3-heatmap-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/pRJJGMx.png' alt='D3 Scatterplot app' /></a>
-            <div className='caption'>
-              <h3><strong>D3 Heatmap</strong></h3>
-              <p>Heatmap project from FCC made with D3 and React.</p>
-              <div className='github-icon'><a href='https://github.com/drhectapus/d3-heatmap' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div className='thumbnail'>
-            <a href='https://d3-force-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/kHjPOan.png' alt='D3 Scatterplot app' /></a>
-            <div className='caption'>
-              <h3><strong>D3 Force Layout</strong></h3>
-              <p>Force layout project from FCC made with D3 and React.</p>
-              <div className='github-icon'><a href='https://github.com/drhectapus/d3-force' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div className='thumbnail'>
-            <a href='https://d3-map-drhectapus.herokuapp.com/' target='_blank'><img src='http://i.imgur.com/g8GsCUV.png' alt='D3 Meteor Map' /></a>
-            <div className='caption'>
-              <h3><strong>D3 Meteor Map</strong></h3>
-              <p>Meteor map project from FCC made with D3 and React.</p>
-              <div className='github-icon'><a href='https://github.com/drhectapus/d3-map' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div className='thumbnail'>
-            <a href='https://url-shortener-drhectapus.herokuapp.com/' target='_blank'><img src='https://i.imgur.com/ToPkXAF.png' alt='URL Shortener Microservice' /></a>
-            <div className='caption'>
-              <h3><strong>URL Shortener Microservice</strong></h3>
-              <p>URL Shortener Microservice project from FCC made with React, Express/Nodejs, Materialize-CSS</p>
-              <div className='github-icon'><a href='https://github.com/drhectapus/url-shortener' target='_blank'><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
+          {WorkItemsArray.map(({ url, img, title, description, github }) => {
+            return (
+              <WorkItem
+                key={title}
+                url={url}
+                img={img}
+                title={title}
+                description={description}
+                github={github}
+              />
+            );
+          })}
         </div>
       </div>
     );

@@ -20,11 +20,11 @@ class About extends Component {
         </div>
         <div className='about-panel-inverse'>
           <img src="http://i68.tinypic.com/jijpl3.jpg" alt="Ideas" className="img-responsive img-circle" />
-          <p>I love tech and how it can be utilised to solve many of our problems. After coming up with so many ideas, but never being able to find someone to make the idea, I have decided to take upon my own to learn code.</p>
+          <p>I love tech and how it can be utilised to solve many of our problems. After coming up with so many ideas, but never being able to find someone to make the idea, I decided to take upon my own to learn code.</p>
         </div>
         <div className='about-panel'>
           <img src="http://i64.tinypic.com/erae7p.jpg" alt="World" className="img-responsive img-circle" />
-          <p>My goal is to be fluent in web and mobile development by the end of 2017 and have a production app ready. Below you can see my journey in getting there.</p>
+          <p>My goal is to become proficient in web development by the end of 2017 and progress to blockchain development in 2018. Below you can see my journey in getting there.</p>
         </div>
       </div>
     );

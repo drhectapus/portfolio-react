@@ -6,7 +6,7 @@ export const MAIL_SENT = 'MAIL_SENT';
 const ROOT_URL='https://formspree.io/'
 const EMAIL = 'drjosephliu@gmail.com'
 
-export function sendMail(values, callback) {
+export function sendMail(values) {
   const request = axios.post(`${ROOT_URL}${EMAIL}`, values);
 
   return (dispatch) => {

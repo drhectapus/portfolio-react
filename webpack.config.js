@@ -15,6 +15,14 @@ module.exports = {
         test: [/\.css$/, /\.scss$/],
         exclude: /node_modules/,
         loaders: ['style-loader', 'css-loader', 'sass-loader']
+      },
+      {
+        test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+        loader: 'url-loader',
+        options: {
+          limit: 10000,
+          name: 'images/[name].[hash:8].[ext]',
+        },
       }
     ]
   },

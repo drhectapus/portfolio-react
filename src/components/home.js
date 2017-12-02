@@ -7,7 +7,7 @@ export default class Home extends Component {
         <div id='image-container'>
           <img
             className='img-responsive'
-            src='http://i.imgur.com/qXqDaqq.jpg'
+            src='https://i.imgur.com/38nyHv6.jpg'
           />
         </div>
         <div className='home-text'>
