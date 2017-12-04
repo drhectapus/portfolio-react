@@ -108,13 +108,6 @@ export default [
     github: 'https://github.com/drhectapus/d3-map'
   },
   {
-    url: 'https://url-shortener-drhectapus.herokuapp.com/',
-    img: urlmicroserviceImg,
-    title: 'URL Shortener Microservice',
-    description: 'URL Shortener Microservice project from FCC made with React, Express/Nodejs, Materialize-CSS',
-    github: 'https://github.com/drhectapus/url-shortener'
-  },
-  {
     url: 'https://voting-app-drhectapus.herokuapp.com/',
     img: votingappImg,
     title: 'Voting App',
