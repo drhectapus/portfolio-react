@@ -48,7 +48,7 @@ export default [
     url: 'https://react-pomodoro-drhectapus.herokuapp.com/',
     img: pomodoroImg,
     title: 'Pomodoro Clock',
-    description: 'The pomodoro clock project from FreeCodeCamp redesigned in React amd SCSS.',
+    description: 'The pomodoro clock project from FreeCodeCamp redesigned in React and SCSS.',
     github: 'https://github.com/drhectapus/react-pomodoro'
   },
   {
