@@ -12,7 +12,7 @@ class About extends Component {
         </div>
         <div className='about-panel-inverse'>
           <img src="http://i.imgur.com/Ooqi5LE.jpg" alt="Beach Laptop" className="img-responsive img-circle" />
-          <p>The journey brought me initially to Vietnam, out of all places, where I currently work as Head of R&D at <a href='https://www.vitamonk.com/' target='_blank'>VitaMonk</a>. My job is remote, so I am what most consider a 'digital nomad' - someone who makes anywhere and everywhere his office.</p>
+          <p>I have lots of experienced in startups. My last job was Chief of R&D at <a href='https://www.vitamonk.com/' target='_blank'>VitaMonk</a></p>, where I was responsible for formulating 60+ products and all things marketing such as copywriting, creating landing pages and email marketing campaigns.
         </div>
         <div className='about-panel'>
           <img src="http://i.imgur.com/d2yFFhQ.jpg" alt="Cushion" className="img-responsive img-circle" />
@@ -20,11 +20,11 @@ class About extends Component {
         </div>
         <div className='about-panel-inverse'>
           <img src="http://i68.tinypic.com/jijpl3.jpg" alt="Ideas" className="img-responsive img-circle" />
-          <p>I love tech and how it can be utilised to solve many of our problems. After coming up with so many ideas, but never being able to find someone to make the idea, I decided to take upon my own to learn code.</p>
+          <p>I love tech and how it can be utilised to solve many of our problems. After coming up with so many ideas, but never being able to find someone to make the idea, I decided to take upon my own to learn programming.</p>
         </div>
         <div className='about-panel'>
           <img src="http://i64.tinypic.com/erae7p.jpg" alt="World" className="img-responsive img-circle" />
-          <p>My goal is to become proficient in web development by the end of 2017 and progress to blockchain development in 2018. Below you can see my journey in getting there.</p>
+          <p>As a doctor, I always felt fustrated with the tools available. My goal is to solve that by working as a software engineer in the health tech space. Below you can see my journey in getting there.</p>
         </div>
       </div>
     );
