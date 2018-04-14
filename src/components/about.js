@@ -12,7 +12,7 @@ class About extends Component {
         </div>
         <div className='about-panel-inverse'>
           <img src="http://i.imgur.com/Ooqi5LE.jpg" alt="Beach Laptop" className="img-responsive img-circle" />
-          <p>I have lots of experienced in startups. My last job was Chief of R&D at <a href='https://www.vitamonk.com/' target='_blank'>VitaMonk</a></p>, where I was responsible for formulating 60+ products and all things marketing such as copywriting, creating landing pages and email marketing campaigns.
+          <p>I have lots of experienced in startups. My last job was Chief of R&D at <a href='https://www.vitamonk.com/' target='_blank'>VitaMonk</a>, where I was responsible for formulating 60+ products and all things marketing such as copywriting, creating landing pages and email marketing campaigns.</p>
         </div>
         <div className='about-panel'>
           <img src="http://i.imgur.com/d2yFFhQ.jpg" alt="Cushion" className="img-responsive img-circle" />
