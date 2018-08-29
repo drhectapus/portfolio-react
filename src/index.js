@@ -21,7 +21,7 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
       <div className='app-container'>
         <Nav />
-        <Home />
+        {/* <Home /> */}
         <About />
         <Work />
         <Contact />

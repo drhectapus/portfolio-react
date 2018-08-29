@@ -18,7 +18,7 @@ class Nav extends Component {
               <span className='icon-bar'></span>
               <span className='icon-bar'></span>
             </button>
-            <a href='#home' className='navbar-brand'>
+            <a href='#about' className='navbar-brand'>
               Joseph Liu
             </a>
           </div>
@@ -31,6 +31,7 @@ class Nav extends Component {
               <li><a href='#about'>About</a></li>
               <li><a href='#work'>Work</a></li>
               <li><a href='#contact'>Contact</a></li>
+              <li><a href='https://s3.eu-west-2.amazonaws.com/portfolio-drhectapus/Joseph_Liu_CV.pdf'>Resumé</a></li>
             </ul>
           </div>
         </div>
