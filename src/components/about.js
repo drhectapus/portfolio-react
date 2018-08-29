@@ -12,7 +12,7 @@ class About extends Component {
           <p>Along the way, I've also formulated dozens of supplements, interned at a few health tech startups, created an Amazon business and even worked as a cook at one point!</p>
           <p>What unites my previous experiences is a love for making things. Especially things that can have great impact.</p>
           <p>As a doctor, I always found myself in a constant state of frustration with the old and impossible-to-navigate software that I had available.</p>
-          <p>With my new skills I hope to change that.</p>
+          <p>With my new skills, I've made it my goal to change that.</p>
         </div>
       </div>
     );
