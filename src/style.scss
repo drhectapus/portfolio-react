@@ -113,18 +113,15 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
-  @media (min-width: 768px) {
+  @media (min-width: 1200px) {
     flex-direction: row;
   }
   .thumbnail {
     margin: 1rem;
-    @media (min-width: 768px) {
+    @media (min-width: 1200px) {
       flex: 0 1 45%;
     }
-    @media (min-width: 1024px) {
-      flex: 0 1 45%;
-    }
-    @media (min-width: 1600px) {
+    @media (min-width: 2000px) {
       flex: 0 1 27.5%;
     }
     &:hover {

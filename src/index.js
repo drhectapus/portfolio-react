@@ -8,7 +8,6 @@ import ReduxThunk from 'redux-thunk';
 import reducers from './reducers';
 require('./style.scss');
 import Nav from './components/nav';
-import Home from './components/home';
 import About from './components/about';
 import Work from './components/work';
 import Contact from './components/contact';
@@ -21,7 +20,6 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
       <div className='app-container'>
         <Nav />
-        {/* <Home /> */}
         <About />
         <Work />
         <Contact />
