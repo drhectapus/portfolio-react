@@ -1,3 +1,5 @@
+import chatbotImg from '../images/Chatbot.gif';
+import diagnosisappImg from '../images/diagnosis_app.gif';
 export default [
   {
     img: 'https://s3.eu-west-2.amazonaws.com/portfolio-drhectapus/images/Chatbot.gif',
