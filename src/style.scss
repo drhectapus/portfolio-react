@@ -25,64 +25,18 @@ body {
   margin: 0;
 }
 
-#home {
-
-  background-color: $primary-bg;
-  display: flex;
-  flex-direction: column-reverse;
-  @media (min-width: 768px) {
-    flex-direction: row;
-  }
-  .home-text {
-    flex: 1 1 70vh;
-    position: relative;
-
-    .text-heading {
-      position: absolute;
-      left: 2%;
-      bottom: 2%;
-      @media (min-width: 768px) {
-        top: 45%;
-      }
-      width: 85%;
-      h1 {
-        font-size: 3em;
-        font-weight: 900;
-        font-family: $title-font;
-      }
-    }
-  }
-  #image-container {
-
-    img {
-      @media (min-width: 768px) {
-        max-height: 100vh;
-      }
-      flex: 0 1 auto;
-    }
-  }
-
-}
-
-
 #about {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: $secondary-bg;
-  padding: 2.5% 7.5%;
-  @media (min-width: 600px) {
-    padding: 5% 7.5%;
+  padding: 2.5% 5%;
+  @media (min-width: 1200px) {
+    padding: 5% 20%;
   }
-  @media (min-width: 768px) {
-    padding: 5% 12.5%;
-  }
-  @media (min-width: 1024px) {
-    padding: 5% 15%;
-  }
-  @media (min-width: 1600px) {
-    padding: 5% 25%;
+  @media (min-width: 2000px) {
+    padding: 5% 30%;
   }
   h1 {
     text-align: center;
