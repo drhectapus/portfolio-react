@@ -4,13 +4,6 @@ import WorkProjectsList from './work-projects-list';
 import StudyProjectsList from './study-projects-list';
 
 class Work extends Component {
-  // componentDidMount() {
-  //     console.log(new Date(), ' Work is mounted 🙃');
-  //   }
-  //
-  //   componentWillUnmount() {
-  //     console.log(new Date(), ' Work will be killed 😭');
-  //   }
 
   render() {
     return (
