@@ -26,18 +26,18 @@ body {
 // }
 
 .navbar-brand {
-  line-height: 85px;
+  line-height: 50px;
 }
 
 .navbar-toggle {
-  min-height: 80px;
+  min-height: 100px;
 }
 
 .navbar-nav > li > a {
-  line-height: 85px;
-  @media (min-width: 1200) {
-    line-height: 20px;
-  }
+  line-height: 50px;
+  // @media (min-width: 1200) {
+  //   line-height: 20px;
+  // }
 }
 
 @media (max-width: 1200px) {
