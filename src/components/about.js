@@ -4,7 +4,7 @@ const About = () => {
 
   return (
     <div id='about'>
-      <img src='../avatar..jpg'/>
+      <img src='../avatar.jpg'/>
       <h1>Joseph Liu</h1>
       <div className='bio'>
         <p>Hi. I'm currently a Master's student in Computer and Information Technology (MCIT) at the University of Pennsylvania.</p>
