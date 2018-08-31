@@ -1,10 +1,11 @@
 import React from 'react';
+import Avatar from '../images/avatar.jpg';
 
 const About = () => {
 
   return (
     <div id='about'>
-      <img src='../images/avatar.jpg'/>
+      <img src={Avatar} />
       <h1>Joseph Liu</h1>
       <div className='bio'>
         <p>Hi. I'm currently a Master's student in Computer and Information Technology (MCIT) at the University of Pennsylvania.</p>
