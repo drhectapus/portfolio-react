@@ -31,7 +31,7 @@ class Nav extends Component {
               <li><a href='#about'>About</a></li>
               <li><a href='#work'>Work</a></li>
               <li><a href='#contact'>Contact</a></li>
-              <li><a href='./Joseph_Liu_CV.pdf'>Resume</a></li>
+              <li><a href='./Joseph_Liu_Resume.pdf'>Resume</a></li>
             </ul>
           </div>
         </div>

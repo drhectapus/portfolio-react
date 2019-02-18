@@ -12,7 +12,7 @@
     "postinstall": "NODE_ENV='production' webpack -p",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.conf.js"
+    "build": "webpack --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",

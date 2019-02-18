@@ -11,7 +11,7 @@ class Work extends Component {
         <div className='work-container'>
           <h1>Work Projects</h1>
           <div className='work-group'>
-            {WorkProjectsList.map(({ img, title, description, github }) => {
+            {WorkProjectsList.reverse().map(({ img, title, description, github }) => {
               return (
                 <ProjectItem
                   key={title}
@@ -27,7 +27,7 @@ class Work extends Component {
         <div className='work-container'>
           <h1>Study Projects</h1>
           <div className='work-group'>
-            {StudyProjectsList.map(({ url, img, title, description, github }) => {
+            {StudyProjectsList.reverse().map(({ url, img, title, description, github }) => {
               return (
                 <ProjectItem
                   key={title}
